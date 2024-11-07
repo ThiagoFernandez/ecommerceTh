@@ -1,6 +1,7 @@
 import { FaShoppingCart } from 'react-icons/fa';
 import { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
+import { Link } from 'react-router-dom';
 import '../index.css'; 
 
 const CartWidget = () => {
@@ -8,7 +9,7 @@ const CartWidget = () => {
   const itemCount = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
-    <div className="cart-widget" aria-label={`Carrito con ${itemCount} artículos`}>
+    <Link to="/cart" className="cart-widget" aria-label={`Carrito con ${itemCount} artículos`}>
       {itemCount > 0 ? (
         <>
           <FaShoppingCart size={24} />
@@ -17,9 +18,8 @@ const CartWidget = () => {
       ) : (
         <span className="empty-cart-message">Carrito vacío</span>
       )}
-    </div>
+    </Link>
   );
-  
 };
 
 export default CartWidget;

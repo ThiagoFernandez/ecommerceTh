@@ -67,7 +67,7 @@ const ItemDetailContainer = () => {
         <button className="add-to-cart-button" onClick={handleAddToCart}>
           Agregar al Carrito
         </button>
-        {message && <p>{message}</p>} {/* Mostrar mensaje de confirmación */}
+        {message && <p  aria-live="polite">{message}</p>} {/* Mostrar mensaje de confirmación */}
       </div>
     </div>
   );

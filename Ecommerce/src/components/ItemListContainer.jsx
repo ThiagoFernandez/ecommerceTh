@@ -31,7 +31,7 @@ const ItemListContainer = ({ greeting }) => {
       <ul className='product-list'>
         {filteredProducts.map((product) => (
           <li key={product.id}>
-            <Link className='product-link' to={`/item/${product.id}`}>{product.name}</Link>
+            <Link className='product-link' to={`/item/${product.id}`}aria-label={`Ver detalles de ${product.name}`}>{product.name}</Link>
           </li>
         ))}
       </ul>
