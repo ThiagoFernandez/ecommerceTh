@@ -8,7 +8,7 @@ Este es un proyecto de e-commerce desarrollado en React, que simula una tienda o
 - **React**: Biblioteca principal para la construcción de la UI.
 - **React Router**: Para la navegación entre las distintas vistas de la aplicación (productos, carrito, etc.).
 - **Context API**: Para manejar el estado global de la aplicación, como el carrito de compras.
-(- **Firebase (Firestore)**: Base de datos en la nube para almacenar los productos y los registros de las compras.) // en proceso!!!
+- (**Firebase (Firestore)**: Base de datos en la nube para almacenar los productos y los registros de las compras.) // en proceso!!!
 - **CSS**: Para el estilado de los componentes.
 - **React Icons**: Para los íconos de la interfaz de usuario, como el carrito de compras.
 
