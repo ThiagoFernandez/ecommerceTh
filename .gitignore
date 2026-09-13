@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+
+# Build / cache
+dist/
+build/
+.cache/
+.sass-cache/
+.parcel-cache/
+.next/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# Entorno (secretos)
+.env
+.env.local
+
+# Editores e IDEs
+.vscode/
+.idea/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
