@@ -9,7 +9,7 @@ Este es un proyecto de e-commerce desarrollado en React, que simula una tienda o
 - **React Router**: Para la navegación entre las distintas vistas de la aplicación (productos, carrito, etc.).
 - **Context API**: Para manejar el estado global de la aplicación, como el carrito de compras.
 - (**Firebase (Firestore)**: Base de datos en la nube para almacenar los productos y los registros de las compras.) // en proceso!!!
-- **CSS**: Para el estilado de los componentes.
+- **CSS**: Para el estilado de los componentes utilizados.
 - **React Icons**: Para los íconos de la interfaz de usuario, como el carrito de compras.
 
 ## Características
@@ -33,5 +33,3 @@ Este es un proyecto de e-commerce desarrollado en React, que simula una tienda o
    - Se implementan validaciones en la cantidad de productos para agregar al carrito, como el límite de stock disponible.
    - Se muestran mensajes como "Carrito vacío" cuando no hay productos en el carrito.
    - Se utiliza un ícono del carrito que muestra el número total de productos agregados.
-
-
