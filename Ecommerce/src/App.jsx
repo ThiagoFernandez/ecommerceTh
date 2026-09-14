@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
-import Cart from './components/Cart'; 
+import Cart from './components/Cart';
 import CartProvider from './context/CartContext';
 import './index.css';
 import Footer from './components/Footer';
@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/ecommerceTh">
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer greeting="¡Bienvenido a T.A.F.P Ecommerce!" />} />
@@ -22,7 +22,7 @@ function App() {
       </Router>
       <Footer/>
     </CartProvider>
-    
+
   );
 }
 
